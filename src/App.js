@@ -1,16 +1,31 @@
-import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import React from "react";
+import { Redirect, Route, Switch } from "react-router-dom";
+
+import Layer from "./components/layer/Layer";
+import NotFoundPage from "./components/Notfound";
+import About from "./pages/About";
+import Main from "./pages/Main";
 
 function App() {
   return (
-    <div>
+    <Layer>
       <Switch>
-        <Route ></Route>
-        <Route ></Route>
-        <Route ></Route>
-        <Route ></Route>
-      </Switch>  
-    </div>
+        <Route path="/home" exact>
+          <Main />
+        </Route>
+        <Route path="/about">
+          <About />
+        </Route>
+        <Route path="/projects"></Route>
+        <Route path="/contact"></Route>
+        <Route path="/" exact>
+          <Redirect to="/home" />
+        </Route>
+        <Route path="*">
+          <NotFoundPage />
+        </Route>
+      </Switch>
+    </Layer>
   );
 }
 

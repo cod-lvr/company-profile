@@ -1,4 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+@font-face {
+  font-family: 'poppinsblack';
+  src: url('/src/UI/fonts/poppins-black-webfont.woff2') format('woff2'),
+       url('/src/UI/fonts/poppins-black-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'poppinsblack_italic';
+  src: url('/src/UI/fonts/poppins-blackitalic-webfont.woff2') format('woff2'),
+       url('/src/UI/fonts/poppins-blackitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 
 * {
   box-sizing: border-box;
@@ -12,5 +28,25 @@ body {
   margin: 0;
   padding: 0;
   background-color: #464646;
+  font-family: 'poppinsblack', 'poppinsblack_italic';
 }
 
+.main {
+  
+  width: 100%;
+}
+
+.btn {
+  background-color: #79c080;
+  padding: 0.894rem 1.97rem;
+  border: 0;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.btn:hover,
+.btn:active {
+  background-color: #79c080a6;
+}

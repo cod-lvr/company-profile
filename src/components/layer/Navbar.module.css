@@ -1,0 +1,36 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .254rem 2rem;
+    /* height: 10px; */
+    background-color: transparent;
+}
+
+.logo {
+    width: 15%;
+    height: 1%;
+}
+.logo img {
+    width: 100%;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+}
+
+.links a {
+    color: #fff;
+    border: 0;
+    text-decoration: none;
+    padding-bottom: .4rem;
+}
+
+.links a.active {
+    border-bottom: 3px solid #fff;
+    font-weight: bold;
+    color: #550055;
+}
