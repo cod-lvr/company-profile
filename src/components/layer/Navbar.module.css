@@ -2,13 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: .254rem 2rem;
-    /* height: 10px; */
+    padding: 0 2rem;
     background-color: transparent;
 }
 
 .logo {
-    width: 15%;
+    width: 12%;
     height: 1%;
 }
 .logo img {
@@ -29,8 +28,9 @@
     padding-bottom: .4rem;
 }
 
-.links a.active {
+.links a.active,
+.links a:hover {
     border-bottom: 3px solid #fff;
     font-weight: bold;
-    color: #550055;
+    color: #b119e9;
 }

@@ -5,7 +5,7 @@ const Layer = (props) => {
   return (
     <Fragment>
       <Navbar />
-      <main className='main'>{props.children}</main>
+      <div className='main'>{props.children}</div>
     </Fragment>
   );
 };

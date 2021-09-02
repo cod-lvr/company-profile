@@ -1,7 +1,9 @@
 .main {
-    background: rgb(70,70,70);
-    background: linear-gradient(125deg, rgba(70,70,70,1) 60%, rgba(85,0,85,1) 60%);
-    height: 78vh;
+    background-image: url('../UI/backgrounds/bg1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
     position: relative;
     padding: 0 3rem;
 }

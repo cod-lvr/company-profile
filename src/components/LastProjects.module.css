@@ -1,0 +1,77 @@
+.main {
+    height: 85vh;
+    width: 100%;
+    background-image: url('../UI/backgrounds/bg3.png');
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main h3 {
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: 0.24rem;
+    line-height: 2.758rem;
+    font-size: 25px;
+    text-align: center;
+}
+.projects {
+    margin: 0 auto;
+    width: 90%;
+    padding: 1rem;
+}
+.project {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.project-twist {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: flex-start;
+    clear: both;
+}
+
+.content-box {
+    width: 40%;
+}
+.content-box h4 {
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: 0.24rem;
+    font-size: 20px;
+    text-align: start;
+    padding-bottom: 1rem;
+    border-bottom: 5px solid #550055;
+}
+.content-box p {
+    color: #bbbbbb;
+    text-transform: capitalize;
+    letter-spacing: 0.24rem;
+    line-height: 1.75rem;
+    margin: 2.47rem 0;
+}
+.photo {
+    width: 50%;
+    height: 40%;
+    padding-top: 1rem;
+}
+.photo img {
+    width: 100%;
+}
+.content-box button {
+    background-color: transparent;
+    color: #fff;
+    border: 0;
+    border-bottom: 2px solid #550055;
+    padding: 1rem;
+    letter-spacing: 0.24rem;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.content-box button:hover {
+    margin-top: 0.2rem;
+    border-bottom: 0;
+}

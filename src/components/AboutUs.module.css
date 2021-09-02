@@ -1,0 +1,27 @@
+.main {
+    height: 85vh;
+    text-align: center;
+    background-image: url('../UI/backgrounds/ayman-02.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.box {
+    margin: 0 auto;
+    width: 90%;
+}
+.main h3 {
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: 0.24rem;
+    line-height: 2.758rem;
+    font-size: 25px;
+}
+.main p {
+    color: #bbbbbb;
+    text-transform: capitalize;
+    letter-spacing: 0.24rem;
+    line-height: 1.75rem;
+    margin: 4.47rem 2rem;
+}
