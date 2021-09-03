@@ -1,0 +1,32 @@
+.main h3 {
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: 0.24rem;
+    line-height: 2.758rem;
+    font-size: 25px;
+    text-align: center;
+}
+.box {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.content-box {
+    width: 80%;
+}
+.content-box p {
+    color: #bbbbbb;
+    text-transform: capitalize;
+    letter-spacing: 0.24rem;
+    line-height: 1.75rem;
+    margin: 4.47rem 2rem;
+}
+.form {
+    background-color: #bbbbbb;
+    width: 70%;
+    border: 2px solid #af02af;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(83, 2, 83, 0.6);
+}
