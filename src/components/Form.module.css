@@ -1,0 +1,26 @@
+.form {
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+label,
+input,
+textarea {
+    margin: 6px 0;
+}
+textarea {
+    margin-bottom: 20px;
+}
+
+input,
+textarea {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #550055;
+    padding: .78rem 0.457rem;
+    text-transform: capitalize;
+    font-size: 1rem;
+    color: #fff;
+}
